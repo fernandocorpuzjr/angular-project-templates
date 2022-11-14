@@ -1,0 +1,2 @@
+<pre *ngIf="userAccount; else loadingView">{{ userAccount | json }}</pre>
+<ng-template #loadingView>Loading ...</ng-template>
